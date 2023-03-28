@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*header*/
+header{
+width: 100%;
+padding-left: 122px;
+}
+
+.ul-flex{
+display: flex;
+}
+
+.ul-flex li{
+padding-right: 25px;
+list-style: none;
+}
+
+.h1-img{
+  width: 1072px;
+  display: flex;
+  margin-top: 29px;
+  justify-content: space-between;
+}
+
+.h1-img h1{
+width: 628px;
+font-family: Roboto Slab;
+font-size: 80px;
+font-weight: 700;
+}
+
+.header-img img{
+  width: 304px;
+  height: 356px;
+}
+
+.p-span{
+  width: 414px;
+}
+
+.p-span h1{
+  width: 616px;
+  
+}
+
+.p-span p{
+
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400; 
+}
+
+/* smartfon  */
+@media (min-width: 320px) and (max-width: 991px) {
+  body {
+    width: 375px;
+    margin: 0 auto;
+  }
+} 
+
+/* tablet */
+@media (min-width: 992px) and (max-width: 1279px) {
+  body {
+    width: 834px;
+    margin: 0 auto;
+  }
+}
+
+/* desktop */
+@media (min-width: 1280px) {
+  body {
+    width: 1440px;
+    margin: 0 auto;
+  }
+}
